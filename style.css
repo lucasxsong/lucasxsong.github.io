@@ -1,0 +1,97 @@
+/*  general formatting */
+body {
+    font-family: 'helvetica neue';
+    font-size: 14px;
+}
+
+/* for the title on each subpage */
+.title {
+    padding-top: 300px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* for the descriptions on each subpage */
+.subtext {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 18px;
+}
+/* for the home helper button on each subpage */
+.home {
+    padding-top: 30px;
+    padding-left: 10px; 
+    font-size: 18px;
+    font-weight: 300;
+}
+/* for the MAIN greeting message on index */
+.greeting {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 300px;
+    padding-left: 10px;
+}
+
+/* for the MAIN selector items on index */
+.selectors {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 18px;
+}
+/* for the subselection links on index */
+.subselections {
+    padding-left: 10px;
+    font-weight: 200;
+    font-size: 14px;
+    padding-bottom:10px;
+}
+/* for the footer on every page */
+.footer {
+    padding-left: 10px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/*                      
+---------RESUME---------
+*/                      
+.name {
+    font-size: 30px;
+}
+.intro {
+    padding-left: 10px;
+}
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.courses {
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.company {
+    padding-bottom: 0px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.desc {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.skills {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* END RESUME */
