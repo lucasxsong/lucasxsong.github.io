@@ -15,15 +15,17 @@ body {
 .subtext {
     padding-top: 20px;
     padding-left: 40px;
+    padding-right: 40px;
     font-weight: 300;
     font-size: 18px;
+    
 }
 /* for the home helper button on each subpage */
 .home {
     padding-top: 30px;
     padding-left: 10px; 
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 /* for the MAIN greeting message on index */
 .greeting {
@@ -31,13 +33,14 @@ body {
     font-weight: 500;
     padding-top: 300px;
     padding-left: 10px;
+    color: #000000;
 }
 
 /* for the MAIN selector items on index */
 .selectors {
     padding-top: 20px;
     padding-left: 40px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
 }
 /* for the subselection links on index */
