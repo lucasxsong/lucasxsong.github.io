@@ -7,22 +7,23 @@
         <div class = "name"> Lucas Song </div>
         <!-- this is where i would add a little information about myself-->
         <div class = "body"> 
-            <h3 align = "left"> Education </h3>
+            <div class = "header"> Education </div>
+            <div class = "intro"> 
             B.S., Computer Science <br>
             Expected Graduation June 2021
+            </div>
             <br>
-            <br> 
             <div class = "company" > Relevant Coursework </div>
                 <div class = "courses">
                     > Software Construction <br>
-                    > Data Structure and Algorithms <br>
-                    > Machine Organization and Assembly Language <br>
+                    > Data Structure & Algorithms <br>
+                    > Machine Organization & Assembly Language <br>
                     > Applied Linear Algebra <br>
                     > Multivariable Calculus <br>
                     > Discrete Structures <br>
                 </div>
             
-            <h3 align = "left"> Work Experience </h3>
+                <div class = "header">Work Experience </div>
                 <div class = "company"> myntAI </div>
                 <div class = "desc">
                     <b> <i> Front End Development Intern </i></b> <br>
@@ -59,8 +60,11 @@
                     > Built a responsive frontend using jQuery <br> 
                 </div>
 
-            <h3 align = "left"> Technical Skills </h3>
-
+                <div class = "header"> Technical Skills </div>
+                <div class = "skills"> 
+                    <b> Languages: </b>
+                    <b> Software & Tools
+                </div>
 
         </div>
     </body>
@@ -74,21 +78,32 @@
     .name {
         font-size: 30px;
     }
+    .intro {
+        padding-left: 10px;
+    }
     .body {
         font-size: 14px;
+    }
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 700;
     }
     .courses {
         font-style: italic;
         font-weight: 300;
         font-size: 12px;
+        padding-left: 20px;
     }
     .company {
         padding-bottom: 0px;
         font-weight: 700;
+        padding-left: 10px;
     }
     .desc {
         font-size: 12px;
-        padding-left: 10px;
+        padding-left: 20px;
         padding-top: 0px;
         font-weight: 300;
         padding-bottom: 10px;
