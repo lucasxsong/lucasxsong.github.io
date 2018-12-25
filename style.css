@@ -7,12 +7,7 @@ body {
 /* for the title on each subpage */
 .title {
     /* padding-top: 300px; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    padding-top: 50px;
     padding-left: 10px;
     font-size: 24px;
     font-weight: 500;
@@ -24,7 +19,6 @@ body {
     padding-right: 40px;
     font-weight: 300;
     font-size: 18px;
-    
 }
 /* for the home helper button on each subpage */
 .home {
@@ -33,18 +27,22 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
+.landingText {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 /* for the MAIN greeting message on index */
 .greeting {
     font-size: 24px;
     font-weight: 500;
+    padding-top: 300px;
     padding-left: 10px;
     color: #000000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
 }
 
 /* for the MAIN selector items on index */
