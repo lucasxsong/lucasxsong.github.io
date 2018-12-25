@@ -7,7 +7,12 @@ body {
 /* for the title on each subpage */
 .title {
     /* padding-top: 300px; */
-    padding-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
     padding-left: 10px;
     font-size: 24px;
     font-weight: 500;
@@ -32,9 +37,14 @@ body {
 .greeting {
     font-size: 24px;
     font-weight: 500;
-    padding-top: 300px;
     padding-left: 10px;
     color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 /* for the MAIN selector items on index */
