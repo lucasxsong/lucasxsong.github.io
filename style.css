@@ -13,7 +13,8 @@ a:visited {
 }
 
 a:hover {
-    color: #ffc046;
+    background-color: #ffc046;
+    color: #ffffff
 }
 
 /* for the title on each subpage */
@@ -42,10 +43,10 @@ a:hover {
 
 .landingText {
     position: absolute;
-    top: 20%;
-    -moz-transform: translateY(-20%);
-    -webkit-transform: translateY(-20%);
-    transform: translateY(-20%);
+    top: 40%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 /* for the MAIN greeting message on index */
