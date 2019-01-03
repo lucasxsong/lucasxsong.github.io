@@ -37,31 +37,37 @@ a:hover {
 .home {
     padding-top: 30px;
     padding-left: 12px; 
+    padding-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
 }
 
+.myName {
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .landingText {
     position: absolute;
-    top: 40%;
-    -moz-transform: translateY(-50%);
+     top: 40%;
+    /* -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%);   */
+    padding-left: 10px;
 }
 
 /* for the MAIN greeting message on index */
 .greeting {
-    font-size: 24px;
-    font-weight: 500;
-    padding-top: 300px;
-    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    padding-left: 0px;
     color: #000000;
 }
 
 /* for the MAIN selector items on index */
 .selectors {
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -76,9 +82,10 @@ a:hover {
 .footer {
     position: fixed;
     left: 20;
-    bottom: 30;
+    bottom: 10;
     text-align: left;
     font-size: 18px;
+    font-weight: 400;
     /* background: white; */
 }
 
@@ -86,6 +93,7 @@ a:hover {
 .post {
     padding-left: 40px;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .postTitle {
