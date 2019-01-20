@@ -65,6 +65,17 @@ a:hover {
     padding-right: 100px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+.landingPic {
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+    position: fixed;
+}
 /* for the MAIN selector items on index */
 .selectors {
     padding-top: 10px;
