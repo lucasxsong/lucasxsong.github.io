@@ -77,6 +77,13 @@ img {
     height: auto;
 }
 
+.fa {
+    max-width: 20vh;
+    word-wrap: break-word;
+    display: flex;
+    align-content: flex-end;
+}
+
 .landingPic {
     width: 50%;
     height: auto;
