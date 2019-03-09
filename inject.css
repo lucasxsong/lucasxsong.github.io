@@ -1,16 +1,7 @@
+/* injected css file to remove popups */
+
+/* For grayers and Shabbychic*/ 
 .ju_overlay {
-    display: none !important;
-}
-
-.modalcontent {
-    display: none !important;
-}
-
-.shopify-section-popup-subscription {
-    display: none !important;
-}
-
-.modal-backdrop {
     display: none !important;
 }
 
@@ -18,11 +9,27 @@
     display: none !important;
 }
 
+.ju_iframe {
+    display: none !important;
+}
+
+.modalcontent {
+    display: none !important;
+}
+
 #modalcontent {
     display: none !important;
 }
 
+.shopify-section-popup-subscription {
+    display: none !important;
+}
+
 #shopify-section-popup-subscription {
+    display: none !important;
+}
+
+.modal-backdrop {
     display: none !important;
 }
 
@@ -38,5 +45,14 @@
 }
 
 .mc-modal {
+    display: none !important;
+}
+
+/* for bedhead */
+.shopify-section homepage-newsletter-popup {
+    display: none !important;
+}
+
+#shopify-section-email-popup {
     display: none !important;
 }
