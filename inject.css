@@ -1,33 +1,33 @@
 .ju_overlay {
-    display: none;
+    display: none !important;
 }
 
 .modalcontent {
-    display: none;
+    display: none !important;
 }
 
 .shopify-section-popup-subscription {
-    display: none;
+    display: none !important;
 }
 
 .modal-backdrop {
-    display: none;
+    display: none !important;
 }
 
 #ju_overlay {
-    display: none;
+    display: none !important;
 }
 
 #modalcontent {
-    display: none;
+    display: none !important;
 }
 
 #shopify-section-popup-subscription {
-    display: none;
+    display: none !important;
 }
 
 #modal-backdrop {
-    display: none;
+    display: none !important;
 }
 
 
