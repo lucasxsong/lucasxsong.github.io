@@ -34,9 +34,9 @@
 /* for ongossamer */
 
 .mc-modal-bg {
-    display: none;
+    display: none !important;
 }
 
 .mc-modal {
-    display: none;
+    display: none !important;
 }
