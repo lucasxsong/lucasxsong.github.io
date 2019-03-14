@@ -60,7 +60,7 @@ a:hover {
 
 /* for the MAIN greeting message on index */
 .greeting {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     padding-left: 0px;
     color: #656565;
@@ -94,17 +94,15 @@ img {
 }
 /* for the MAIN selector items on index */
 .selectors {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 30px;
     font-weight: 400;
     font-size: 18px;
 }
 /* for the subselection links on index */
-.subselections {
-    padding-left: 10px;
-    font-weight: 300;
-    font-size: 14px;
-    padding-bottom:10px;
+.selections {
+    padding-bottom:20px;
+    font-size: 20px;
 }
 /* for the footer on every page */
 .footer {
