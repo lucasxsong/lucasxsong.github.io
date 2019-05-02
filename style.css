@@ -194,3 +194,20 @@ img {
 }
 
 /* END RESUME */
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 35vw;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #676767;
+    color: #fff;
+    font: smaller sans-serif;
+    padding: 3px;
+    text-align: left;
+}
