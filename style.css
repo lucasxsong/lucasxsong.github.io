@@ -1,17 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+
+body {
+    text-align: center;
+
+}
 .landing {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0 auto;
     margin-top: 100px;
     width: 800px;
-    height: 60%;
-    top: 30vh;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .landing {
+        margin-top: 30px;
+        width: 270px;
+    }
+
+}
+
+.cs {
+    margin: 20px;
 }
 
 .title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1rem;
 }
+
+.item {
+    margin: 3px;
+}
+
+.past {
+    color: #bdbdbd;
+}
+.desc {
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
