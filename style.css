@@ -35,7 +35,7 @@ a {
     color: black;
 }
 
-@media (min-width: 320px) and (max-width: 900px) {
+@media and (max-width: 900px) {
     .landing {
         margin-top: 30vh;
         width: 90vw;
