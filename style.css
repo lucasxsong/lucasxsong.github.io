@@ -29,7 +29,28 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+    color: black;
+    display: inline-block;
+    
+}
+
+a:hover {
+    -webkit-transform: rotate(-4.5deg);
+	-moz-transform: rotate(-4.5deg);
+	-o-transform: rotate(-4.5deg);
+	-ms-transform: rotate(4.5deg);
+}
+
+a:nth-of-type(n+1):hover {
+
+    transform: rotate(5deg);
+    
+}
+
+a:nth-of-type(n+2):hover {
+
+    transform: rotate(-5deg);
+    
 }
 
 .slider {
