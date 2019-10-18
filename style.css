@@ -44,7 +44,7 @@ a {
 	/* background-color: #d3d3d3; */
 }
 .slide {
-    padding-top: 30px;
+    padding-top: 25px;
 	width: auto;
 	flex-shrink: 0;
 	height: 100%;
@@ -101,6 +101,7 @@ a {
     font-size: 1rem;
 }
 
+
 @media (max-width: 900px) {
 	.landing {
 		margin-top: 30vh;
@@ -111,5 +112,6 @@ a {
 	}
 	.desc {
 		font-size: 1.2rem;
-	}
+    }
+    
 }
