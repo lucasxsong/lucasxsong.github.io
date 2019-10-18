@@ -44,7 +44,7 @@ a {
 	/* background-color: #d3d3d3; */
 }
 .slide {
-    margin-top: 60px;
+    padding-top: 30px;
 	width: auto;
 	flex-shrink: 0;
 	height: 100%;
