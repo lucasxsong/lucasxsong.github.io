@@ -34,7 +34,7 @@ a {
 
 .slider {
 	width: 1000px;
-	height: 550px;
+	height: 560px;
 	display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -44,7 +44,7 @@ a {
 	/* background-color: #d3d3d3; */
 }
 .slide {
-    margin-top: 25px;
+    margin-top: 60px;
 	width: auto;
 	flex-shrink: 0;
 	height: 100%;
@@ -57,7 +57,7 @@ a {
 	padding: 30px;
 	box-shadow: 5px 0px 12px #d3d3d3;
 	min-width: 1000px;
-    min-height: 500px;
+    min-height: 530px;
 }
 
 .port-container {
@@ -76,9 +76,9 @@ a {
 .port-image {
 	border-radius: 3px;
 	box-shadow: 10px 10px 12px #d2d2d2;
-	-webkit-transition: 0.3s ease-out;
-	-moz-transition: 0.3s ease-out;
-	-o-transition: 0.3s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	-moz-transition: 0.2s ease-out;
+	-o-transition: 0.2s ease-out;
 }
 
 .port-image:hover {
@@ -95,6 +95,7 @@ a {
 }
 
 .port-pointers {
+    margin-left: 1rem;
     margin-top: 50px;
     font-weight: 100;
     font-size: 1rem;
