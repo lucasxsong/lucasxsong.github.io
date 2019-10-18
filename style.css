@@ -127,7 +127,7 @@ a:nth-of-type(n+4):hover {
 .port-desc {
     margin-top: -75px;
 	font-size: 1.4rem;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .port-pointers {
@@ -149,5 +149,20 @@ a:nth-of-type(n+4):hover {
 	.desc {
 		font-size: 1.2rem;
     }
+    .port-desc {
+        margin-top: -20px;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .port-pointers {
+        margin-left: 1rem;
+        margin-top: 50px;
+        font-weight: 100;
+        font-size: 1.3rem;
+    }
     
+    .slider {
+        width: 1300px;
+    }
 }
