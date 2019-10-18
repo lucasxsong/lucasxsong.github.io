@@ -35,6 +35,9 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+	text-decoration-color: orange;
+
     -webkit-transform: rotate(-4.5deg);
 	-moz-transform: rotate(-4.5deg);
 	-o-transform: rotate(-4.5deg);
@@ -43,13 +46,25 @@ a:hover {
 
 a:nth-of-type(n+1):hover {
 
-    transform: rotate(5deg);
+    transform: rotate(4deg);
     
 }
 
 a:nth-of-type(n+2):hover {
 
     transform: rotate(-5deg);
+    
+}
+
+a:nth-of-type(n+3):hover {
+
+    transform: rotate(8deg);
+    
+}
+
+a:nth-of-type(n+4):hover {
+
+    transform: rotate(-12deg);
     
 }
 
