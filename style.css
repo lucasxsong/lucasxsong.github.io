@@ -2,7 +2,8 @@
 
 body {
 	text-align: left;
-	font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Pro', serif;
+    color: #333;
 }
 .landing {
 	margin: 0 auto;
@@ -21,16 +22,16 @@ body {
 }
 
 .useful-links {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 .links {
-    font-size: 1.1rem;
-    padding: 5px;
-    margin: 7px;
-    margin-left: 0px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
+	font-size: 1.1rem;
+	padding: 5px;
+	margin: 7px;
+	margin-left: 0px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
 }
 .desc {
 	font-size: 1rem;
@@ -38,76 +39,67 @@ body {
 
 a {
 	text-decoration: none;
-    color: black;
-    display: inline-block;
-    
+	color: black;
+	display: inline-block;
 }
 
 .a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 	text-decoration-color: orange;
 
-    -webkit-transform: rotate(-4.5deg);
+	-webkit-transform: rotate(-4.5deg);
 	-moz-transform: rotate(-4.5deg);
 	-o-transform: rotate(-4.5deg);
 	-ms-transform: rotate(4.5deg);
 }
 
-.a:nth-of-type(n+1):hover {
-
-    transform: rotate(4deg);
-    
+.a:nth-of-type(n + 1):hover {
+	transform: rotate(4deg);
 }
 
-.a:nth-of-type(n+2):hover {
-
-    transform: rotate(-5deg);
-    
+.a:nth-of-type(n + 2):hover {
+	transform: rotate(-5deg);
 }
 
-.a:nth-of-type(n+3):hover {
-
-    transform: rotate(8deg);
-    
+.a:nth-of-type(n + 3):hover {
+	transform: rotate(8deg);
 }
 
-.a:nth-of-type(n+4):hover {
-
-    transform: rotate(-12deg);
-    
+.a:nth-of-type(n + 4):hover {
+	transform: rotate(-12deg);
 }
 
 .slider {
 	width: 1000px;
 	height: 560px;
 	display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;  
-    margin-left: -150px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	scroll-snap-type: x mandatory;
+	margin-left: -150px;
 	/* background-color: #d3d3d3; */
 }
 .slide {
-    padding-top: 25px;
+	padding-top: 25px;
 	width: auto;
 	flex-shrink: 0;
 	height: 100%;
 	padding-right: 25px;
-    padding-left: 75px;
-    scroll-snap-align: start;
+	padding-left: 75px;
+	scroll-snap-align: start;
 }
 
 .slide-container {
 	padding: 30px;
 	box-shadow: 5px 0px 12px #d3d3d3;
 	min-width: 1000px;
-    min-height: 530px;
+	min-height: 530px;
 }
 
 .port-container {
 	overflow-x: hidden;
-    min-height: 95vh;
+	min-height: 95vh;
 }
 .port {
 	width: 1300px;
@@ -134,18 +126,17 @@ a {
 }
 
 .port-desc {
-    margin-top: -75px;
+	margin-top: -75px;
 	font-size: 1.4rem;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .port-pointers {
-    margin-left: 1rem;
-    margin-top: 50px;
-    font-weight: 100;
-    font-size: 1rem;
+	margin-left: 1rem;
+	margin-top: 50px;
+	font-weight: 100;
+	font-size: 1rem;
 }
-
 
 @media (max-width: 900px) {
 	.landing {
@@ -157,21 +148,21 @@ a {
 	}
 	.desc {
 		font-size: 1.2rem;
-    }
-    .port-desc {
-        margin-top: -20px;
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
+	}
+	.port-desc {
+		margin-top: -20px;
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
 
-    .port-pointers {
-        margin-left: 1rem;
-        margin-top: 50px;
-        font-weight: 100;
-        font-size: 1.3rem;
-    }
-    
-    .slider {
-        width: 1300px;
-    }
+	.port-pointers {
+		margin-left: 1rem;
+		margin-top: 50px;
+		font-weight: 100;
+		font-size: 1.3rem;
+	}
+
+	.slider {
+		width: 1300px;
+	}
 }
