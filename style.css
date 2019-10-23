@@ -124,10 +124,10 @@ a {
 }
 
 .port-image:hover {
-	-webkit-transform: scale(1.03);
-	-moz-transform: scale(1.03);
-	-o-transform: scale(1.03);
-	-ms-transform: scale(1.03);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
 }
 
 .port-desc {
