@@ -115,7 +115,7 @@ a {
 
 .port-image {
 	border-radius: 3px;
-	box-shadow: 10px 10px 12px #d2d2d2;
+	box-shadow: 7.5px 0px 15px #d2d2d2;
 	-webkit-transition: 0.2s ease-out;
 	-moz-transition: 0.2s ease-out;
 	-o-transition: 0.2s ease-out;
