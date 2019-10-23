@@ -119,7 +119,8 @@ a {
 }
 .port-info {
 	font-size: 0.8rem;
-	font-weight: 100;
+    font-weight: 100;
+    width: max-content;
 }
 
 .port-image:hover {
