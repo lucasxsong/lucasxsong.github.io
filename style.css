@@ -18,7 +18,8 @@ body {
 .title {
 	font-size: 1.4rem;
 	font-weight: 600;
-	margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+	border-radius: 5px;
 }
 
 .useful-links {
@@ -149,7 +150,7 @@ a {
 		width: 90vw;
 	}
 	.title {
-		font-size: 1.5rem;
+        font-size: 1.5rem;
 	}
 	.desc {
 		font-size: 1.2rem;
