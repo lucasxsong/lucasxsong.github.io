@@ -151,6 +151,10 @@ a {
     font-size: 1.2rem;
 }
 
+.resume-ws {
+	margin-top: 30vh !important;
+}
+
 @media (max-width: 900px) {
 	.landing {
 		margin-top: 30vh;
